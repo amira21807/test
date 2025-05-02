@@ -8,4 +8,4 @@ to push your code     : git push
 
 
 
-to create new branch git checkout -b branchName
+to create new branch git checkout -b branchName 
