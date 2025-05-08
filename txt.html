@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=20">
+        <title>My Webpage zero</title>
+        
+    </head>
+    <body>
+        <p> To sign up please fill the following button</p>
+    
+        <form action="/submit=order" method="post">
+            <h2> Checkout Form </h2>
+            <label for="name">Name</label>
+            <input required type="text" name="name"/>
+            <br/>
+            <br/>
+            <label for="email">  Email</label>
+            <input required type="email" name="email"/>
+            <br/>
+            <br/>
+            <label for="password">  Password</label>
+            <input required type="password" name="password"/>
+            <!--<label for="gender">  Gender</label>
+            <select name="gender" multiple size="4">
+                <option value="male">  Male</option>
+                <option value="female">  Female</option>
+            </select>-->
+            <p>Gender: </p>
+            <input type="radio" name="gender" value="male"/>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female"/>
+            <label for="female">Female</label>
+            <br/>
+            <br/>
+            <p>Interests: </p>
+            <input type="checkbox" name="interests" value="sport"/>
+            <label for="sports">Sports</label>
+            <input type="checkbox" name="interests" value="music"/>
+            <label for="music">Music</label>
+            <input type="checkbox" name="interests" value="palying"/>
+            <label for="playing">Playing</label>
+            <br/>
+            <br/>
+            <p>Country: </p>
+            <select name="country" id="">
+                <option value="egypt">Egypt</option>
+                <option value="ksa">KSA</option>
+            </select>
+            <br/>
+            <br/>
+            <textarea rows="5" cols="30" name="bio" id=""></textarea>
+            <button type="submit">   Save</button>
+        </form>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Availability</th> 
+                </tr>
+                
+            </thead>    
+            <tbody>
+                <tr>
+                    <td>T-shirt</td>
+                    <td>$20</td>
+                    <td>In Stock</td>
+                </tr>
+                <tr>
+                    <td>Running Shoes</td>
+                    <td>$50</td>
+                    <td>Out of Stock</td>
+                </tr>
+                <tr>
+                    <td>Basball Cap</td>
+                    <td>$15</td>
+                    <td>In Stock</td>
+                </tr>
+            
+            </tbody>
+          
+        </table>
+        <br/>
+        <h3>Unorderd List</h3>
+        <Ul>
+            <li>View Cart</li>
+            <li>Enter Shipping Details</li>
+            <li>Enter Payment Details</li>
+            <li>Checkout</li><li>View Cart</li>
+            
+        </Ul>
+
+        <h3>Order List: steps to checkout</h3>
+        <ol>
+            <li>View Cart</li>
+            <li>Enter Shipping Details</li>
+            <li>Enter Payment Details</li>
+            <li>Checkout</li>
+        </ol>
+        </ol>
+    </body>
+
+</html>
