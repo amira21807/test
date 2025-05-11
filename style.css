@@ -1,32 +1,18 @@
-.container > p {
-    color: red;
-    font-size:100px;
-    font-style:italic;
-    font-weight: bold;
+.text{
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    background-color: black;
+    font-family: 'tahoma';
+    text-align: center;
     
 }
-
-p{
-    color:blue;
-    font-size:20px;
-}
-
-#p1{
-
-    color:yellow;
-    font-size:20;
-    
-}
-
-.highlight{
-    font-size:30px;
-}
-h5 ~ p {
-    color:yellow;
-}
-
-ul{
-    color:red;
-    font-style:italic;
+.text:hover{
+    font-size: 22px;
+    color: yellow;
+    transform:translateX(10px);
 
 }
+
+body{
+    background-color: black}
