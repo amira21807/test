@@ -1,18 +1,46 @@
-.text{
-    font-size: 20px;
-    font-style: italic;
-    color: white;
-    background-color: black;
-    font-family: 'tahoma';
-    text-align: center;
-    
-}
-.text:hover{
-    font-size: 22px;
-    color: yellow;
-    transform:translateX(10px);
 
-}
 
 body{
-    background-color: black}
+    background-color: whitesmoke;
+}
+
+p{
+    color:blue;
+    font-size:20px;
+    font-style:italic;
+}
+
+.p-4{
+    color:red;
+    font-size:115px;
+}
+.container{
+    font-size:100px;
+}
+#p-1{
+    color:green;
+    font-size:23px;
+    font-style:oblique;
+}
+
+.p-2{
+    color:purple;
+    font-size:24px;
+    font-style:inherit;
+    background-color:black;
+}
+
+.p-3{
+    color:brown;
+    font-size:26px;
+    font-style:normal;
+}
+
+.list-container > li{
+    color:red;
+    font-size:30px;
+    font-style:italic;
+}
+.list-container > .blue-li{
+    color:blue;
+}
